@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../layouts/partials/header'
-import { Link } from 'react-router-dom'
+import FaqsView from '../components/FaqsView'
 
 export default function Faqs() {
+    const [isOpen, setIsOpen] = useState(false);
+  
   return (
     <div>
       <Header header={"Manage FAQs"} />
@@ -64,8 +66,8 @@ export default function Faqs() {
                         08/08/24 - 2:30 PM
                       </td>
                       <td className="px-6 py-4 space-x-2">
-                        <Link className="font-medium text-gray-150 bg-gray-150 px-3 py-0.5 rounded-md hover:text-gray-250 bg-opacity-10">view</Link>
-                        <Link className="font-medium text-green-500 bg-green-500 px-3 py-0.5 rounded-md hover:text-green-500 bg-opacity-10">Edit</Link>
+                        <button onClick={e => setIsOpen(true)} className="font-medium text-gray-150 bg-gray-150 px-3 py-0.5 rounded-md hover:text-gray-250 bg-opacity-10">view</button>
+                        <button className="font-medium text-green-500 bg-green-500 px-3 py-0.5 rounded-md hover:text-green-500 bg-opacity-10">Edit</button>
                       </td>
                     </tr>
                   ))}
@@ -74,6 +76,7 @@ export default function Faqs() {
             </div>
           </div>
         </div>
+        <FaqsView isOpen={isOpen} setIsOpen={setIsOpen} />
       </div>
     </div>
   )
