@@ -42,7 +42,8 @@ export default function UserFeedBackView({ isOpen, setIsOpen }) {
                   </Dialog.Title>
                   <div className="mt-2">
                     <div className='my-4 space-y-4'>
-                      <p className='text-sm text-gray-600'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                      <p className='text-sm text-gray-600'>Hey Dear Team i need your help could you please give me instruction how to use this betting app
+                      how can i bet on specific team i can't see any bet button on my app screen</p>
                       <div className='flex items-center justify-between text-sm'>
                         <p className='font-semibold'>Date Time</p>
                         <p>October 22, 2023</p>

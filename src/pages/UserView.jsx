@@ -35,18 +35,18 @@ export default function UserView() {
                 </div>
               </div>
               <div className='px-4 xl:px-6 py-8 grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-4'>
-                <div>
+                {/* <div>
                   <p className='text-xs text-gray-600'>Date of Birth</p>
                   <h6 className='text-sm font-medium'>October 22, 2023</h6>
-                </div>
+                </div> */}
                 <div>
                   <p className='text-xs text-gray-600'>Address</p>
                   <h6 className='text-sm font-medium'>Florida, California</h6>
                 </div>
-                <div>
+                {/* <div>
                   <p className='text-xs text-gray-600'>Gender</p>
                   <h6 className='text-sm font-medium'>Male</h6>
-                </div>
+                </div> */}
                 <div>
                   <p className='text-xs text-gray-600'>Phone Number</p>
                   <h6 className='text-sm font-medium'>+546736748565</h6>

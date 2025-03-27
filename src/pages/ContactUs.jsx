@@ -40,6 +40,9 @@ export default function ContactUs() {
                       Username
                     </th>
                     <th scope="col" className="px-6 py-3">
+                      Email
+                    </th>
+                    <th scope="col" className="px-6 py-3">
                       Message
                     </th>
                     <th scope="col" className="px-6 py-3">
@@ -59,8 +62,12 @@ export default function ContactUs() {
                       <td className="px-6 py-4 whitespace-nowrap">
                         John Doe
                       </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                       Jane@singit.com
+                      </td>
                       <td className="px-6 py-4 max-w-xs truncate">
                         Hey Dear Team i need your help could you please give me instruction how to use this betting app
+                        how can i bet on specific team i can't see any bet button on my app screen
                       </td>
                       <td className="px-6 py-4">
                         02/02/2023
